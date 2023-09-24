@@ -31,7 +31,7 @@ export function BannerSlider() {
       loop
     >
       <SwiperSlide>
-        <div className="parallax-bg flex h-full w-screen flex-col justify-center gap-9 bg-[url('/shop-hero-1-product-slide-1.jpg')] bg-cover bg-center px-32 py-5 lg:py-0">
+        <div className="parallax-bg flex h-full w-screen flex-col items-center justify-center gap-9 bg-[url('/shop-hero-1-product-slide-1.jpg')] bg-cover bg-center px-32 py-5 text-center lg:items-start lg:py-0 lg:text-left">
           <span className="font-bold" data-swiper-parallax="-100">
             SUMMER 2020
           </span>
