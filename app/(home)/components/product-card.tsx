@@ -5,7 +5,7 @@ export function ProductCard() {
   return (
     <Link
       href={'/'}
-      className="flex w-full flex-col items-center justify-center gap-5 overflow-hidden rounded pb-5 hover:shadow"
+      className="flex w-full flex-col items-center justify-center gap-5 overflow-hidden rounded pb-5 transition hover:scale-105 hover:shadow"
     >
       <Image
         src={'/editors-pick-1.png'}
